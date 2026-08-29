@@ -1,0 +1,10 @@
+{
+  "name": "quizify-root",
+  "version": "1.0.0",
+  "description": "Root orchestrator for Quizify Client and Server",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "npx concurrently \"npm run server\" \"npm run client\""
+  }
+}
